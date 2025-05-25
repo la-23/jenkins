@@ -6,7 +6,7 @@ pipeline{
                 cleanWs()
                 echo "building laptop ..."
                 sh ''' 
-                    mkdir -p buildP
+                    mkdir -p build
                     touch build/computer.txt
                     echo "mainboard" >> build/computer.txt
                     echo "display" >> build/computer.txt
